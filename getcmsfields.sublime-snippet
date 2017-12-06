@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+public function getCMSFields()
+{
+    \$fields = parent::getCMSFields();
+
+    $1
+
+    return \$fields;
+}
+]]></content>
+    <tabTrigger>getcmsfields</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
