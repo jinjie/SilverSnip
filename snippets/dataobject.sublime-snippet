@@ -10,13 +10,13 @@
 
 class $1 extends ${6:DataObject}
 {
-    private static $db = array(
+    private static \$db = array(
         $7
     );
 
-    private static $has_one = array($8);
+    private static \$has_one = array($8);
 
-    private static $has_many = array($9);
+    private static \$has_many = array($9);
 }
 ]]></content>
     <tabTrigger>dataobject</tabTrigger>
