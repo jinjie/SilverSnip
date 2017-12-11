@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:ClassName}
+ *
+ * @package ${2:Package}
+ * @subpackage ${3:Subpackage}
+ * @author ${4:$TM_FULLNAME} <${5:$TM_EMAIL}>
+ */
+
+class $1 extends ModelAdmin
+{
+    private static \$managed_models = array(
+        $7
+    );
+
+    private static \$url_segment = '$8';
+
+    private static \$menu_title = '$9';
+}
+]]></content>
+    <tabTrigger>modeladmin</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
